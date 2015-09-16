@@ -1,0 +1,59 @@
+$header:					#222;
+
+$color-link:				rgba(255, 255, 255, 1);
+
+$button-radius:				.1875rem;
+$button-color:				rgba(0, 100, 160, 1);
+$button-link:				#fff;
+
+$button-important-color:	rgba(0, 100, 160, 1);
+$button-important-link:		#fff;
+
+$button-normal-color:		rgba(230, 230, 230, 1);
+$button-normal-link:		#999;
+
+$color-1:       			rgba(0, 100, 160, 1);
+$color-2:	          		rgba(0, 150, 165, 1);
+$color-3:	          		rgba(45, 185, 135, 1);
+$color-4:		         	rgba(140, 190, 0, 1);
+$color-5:	      		    rgba(195, 190, 0, 1);
+$color-6:	      	     	rgba(245, 195, 0, 1);
+$color-7:		        	rgba(240, 165, 0, 1);
+$color-8:   		     	rgba(245, 135, 10, 1);
+$color-9:	      	     	rgba(230, 75, 0, 1);
+$color-10:		         	rgba(200, 0, 15, 1);
+$color-11:	     	       	rgba(155, 20, 70, 1);
+$color-12:		           	rgba(130, 30, 120, 1);
+
+$column-gap:				1rem;
+
+$typo-color:				#030303;
+
+$background:				#EFEFF4;
+$list-border:				#C8C7CC;
+$list-stroke:				#C8C7CC;
+$list-subtitle:				#6D6D72;
+$list-header:				#F6F6F7;
+$list-header-stroke:		#A7A7AA;
+$list-color:				#197FFC;
+
+// Gray
+$gray-white:				rgb(248, 248, 248);
+$gray-lightest:				rgb(243, 244, 245);
+$gray-lighter:				rgb(231, 231, 231);
+$gray-light:				rgb(219, 223, 225);
+$gray-medium:				rgb(196, 201, 205);
+$gray-dark:					rgb(124, 124, 124);
+$gray-black:				rgb(76, 76, 76);
+
+// Shadow
+$color-shadow:				rgba($gray-black, 0.2);
+$color-shadow-dark:			rgba($gray-black, 0.4);
+$color-shadow-darker:		rgba($gray-black, 0.6);
+
+$shadow-smallest:			0 1px .125rem $color-shadow;
+$shadow-small:				0 1px .1875rem $color-shadow;
+$shadow-medium:				0 1px .25rem $color-shadow-dark;
+$shadow-medium-dark:		0 1px .25rem $color-shadow-darker;
+$shadow-large:				0 2px .375rem $color-shadow-darker;
+$shadow-largest:			0 0.375rem 0.75rem $color-shadow-dark;

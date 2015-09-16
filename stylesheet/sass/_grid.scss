@@ -1,0 +1,26 @@
+/* Grid */
+.grid,
+.row						{ width: 100%; box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: -moz-box; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-flow: row wrap; justify-content: center; -webkit-justify-content: center; }
+.column						{ width: 100%; flex: auto; }
+@media only screen and (min-width: 48rem)	{
+	.column					{ width: 24rem; }
+}
+
+
+// Flexible grid
+//.column						{ width: 100%; max-width: 32rem; flex: auto; }
+//@media only screen and (min-width: 40rem)	{
+//	.column					{ width: 50%; }
+//}
+//
+//@media only screen and (min-width: 60rem)	{
+//	.column						{ width: 32%; }
+//}
+//
+//@media only screen and (min-width: 80rem)	{
+//	.column						{ width: 25%; }
+//}
+//
+//@media only screen and (min-width: 100rem)	{
+//	.column						{ width: 26rem; }
+//}
