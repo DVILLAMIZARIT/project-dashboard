@@ -1,0 +1,10 @@
+<script>
+			var Task = "todo.txt";
+			var readFileTask = "todo.txt";
+			function readTask() {	
+				var readFile = Task;
+				var content = FileHelper.read ( readFileTask );
+				document.getElementById("task").innerHTML = markdown.toHTML(content);
+			}
+			readTask();
+		</script>

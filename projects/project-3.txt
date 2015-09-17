@@ -1,11 +1,13 @@
-# Project 2
+# Regular list
 
-- **Todo**
+- **List**
 
-	1. Curabitur blandit tempus porttitor
-	2. Nullam id dolor id nibh ultricies vehicula ut id elit consectetur adipiscing elit
-	3. Curabitur blandit tempus porttitor
+	- Curabitur blandit tempus porttitor
+	- Nullam id dolor id nibh
+	- Curabitur blandit tempus porttitor
+		- Curabitur blandit tempus porttitor
+		- Nullam id dolor id nibh
+	- Curabitur blandit tempus porttitor
 
-- **[Notes](#)**
-
-	- Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo.
+---
+A `<ul>` list can also be used for simple list.

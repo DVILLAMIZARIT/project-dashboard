@@ -1,26 +1,17 @@
-/* Grid */
-.grid,
-.row						{ width: 100%; box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: -moz-box; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-flow: row wrap; justify-content: center; -webkit-justify-content: center; }
-.column						{ width: 100%; flex: auto; }
-@media only screen and (min-width: 48rem)	{
-	.column					{ width: 24rem; }
+// Grid format
+.grid							{ width: 100%; box-sizing: border-box; }
+.row							{ width: 100%; box-sizing: border-box; display: -webkit-flex; display: -ms-flexbox; display: -moz-box; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-flex-wrap: wrap; flex-flow: row wrap; /*justify-content: center; -webkit-justify-content: center;*/}
+.tasklist>ul,
+.column							{ width: 100%; flex: auto; display: inline-block; box-sizing: border-box;  }
+
+.tasklist blockquote			{ display: none; }
+
+@media (min-width: 50rem) {
+	.tasklist > ul,
+	.column						{ width: 50%; }
 }
 
-
-// Flexible grid
-//.column						{ width: 100%; max-width: 32rem; flex: auto; }
-//@media only screen and (min-width: 40rem)	{
-//	.column					{ width: 50%; }
-//}
-//
-//@media only screen and (min-width: 60rem)	{
-//	.column						{ width: 32%; }
-//}
-//
-//@media only screen and (min-width: 80rem)	{
-//	.column						{ width: 25%; }
-//}
-//
-//@media only screen and (min-width: 100rem)	{
-//	.column						{ width: 26rem; }
-//}
+@media (min-width: 80rem) {
+	.tasklist > ul,
+	.column						{ width: 24rem; }
+}

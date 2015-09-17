@@ -1,0 +1,11 @@
+# Text only
+
+A project can be filled with a bloc of text containinf multiple paragra^h. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.
+
+	Fusce dapibus
+	tellus ac cursus commodo
+	tortor mauris
+	condimentum nibh fermentum massa
+	justo sit amet risus.
+
+Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras mattis consectetur purus sit amet fermentum.

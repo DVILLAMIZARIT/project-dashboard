@@ -1,0 +1,15 @@
+<script>
+			var doc;
+			var maxNotes = 25;
+			for (doc = 1; doc < maxNotes; doc++) {
+				var Note = "projects/project-" + doc + ".txt";
+				var readFile = "projects/project-" + doc + ".txt";
+				var colNumber = "project" + doc;
+				function read() {	
+					var readFile = Note;
+					var content = FileHelper.read ( readFile );
+					document.getElementById(colNumber).innerHTML = "<span class=\"project\">" + markdown.toHTML(content) + "</span>";
+				}
+				read();
+			}
+		</script>

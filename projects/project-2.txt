@@ -1,11 +1,11 @@
-# Project 1
+## Titles
 
-- **Todo**
+- **Title**
 
-	1. Curabitur blandit tempus porttitor
-	2. Nullam id dolor id nibh ultricies vehicula ut id elit consectetur adipiscing elit
-	3. Curabitur blandit tempus porttitor
+The main title is either a `<h1>`, `<h2>` or `<h3>`.
 
-- **[Notes](#)**
+---
 
-> Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo.
+- **Subtitle**
+
+Subtitle are `<li>` with the text set to `<strong>`.
