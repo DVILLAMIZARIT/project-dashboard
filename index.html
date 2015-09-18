@@ -2,22 +2,22 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Projets</title>
-<!--		<meta http-equiv="refresh" content="5">-->
+		<title>Dashboard</title>
 		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 		<link rel="stylesheet" href="stylesheet/css/dashboard.css">
 		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 	</head>
-	<body>
+	<body class="layout-dashboard">
 		<div class="page">
-			<main class="grid">
-				<header class="header-tasks">
-					<h1>Tasks</h1>
-				</header>
+			<header class="header">
+					<h1>Dashboard</h1>
+					<nav>
+						<a href="index.html" class="icon icon-dashboard">Dashboard</a>
+						<a href="task.html" class="icon icon-task">Tasks</a>
+						<a href="project.html" class="icon icon-project">Projects</a>
+					</nav>
+				</header>			<main class="grid">
 				<section class="row tasklist" id="task"></section>
-				<header class="header-projects">
-					<h1>Projets</h1>
-				</header>
 				<section class="row projectsgroup">
 					<div class="column" id="project1"></div>
 					<div class="column" id="project2"></div>
